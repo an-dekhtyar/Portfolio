@@ -1,0 +1,37 @@
+.remoteBlock {
+    min-height: 40vh;
+    background-color: #f1f0cf;
+}
+
+.remoteContainer {
+    min-height: 40vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: yellow;
+    margin: 20px;
+}
+
+.button {
+    height: 50px;
+    width: 150px;
+    background-color: #cac9c9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: ce;
+}
+
+
+
+
+
