@@ -26,7 +26,7 @@
 }
 .descriptionBlock {
     width: 100%;
-    background-color: #e0dfdf;
+    color: #888888;
 }
 .title {
     font-family: Montserrat;
@@ -37,6 +37,5 @@
 
 }
 .description {
-    background-color: #9d9b9b;
     margin:10px
 }
