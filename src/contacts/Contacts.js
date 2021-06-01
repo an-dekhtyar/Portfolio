@@ -6,7 +6,9 @@ export function Contacts() {
     return (
         <div className={style.contactsContainer}>
             <div className={`${containStyle.container} ${style.contactsBlock}`}>
-                    <h2 className={style.contactsTitle}>Contacts</h2>
+                <div className={style.contactsTitle}>
+                    <h2>Contacts</h2>
+                </div>
                     <form className={style.formContainer}>
                         <input type={'text'}/>
                         <input type={'text'}/>

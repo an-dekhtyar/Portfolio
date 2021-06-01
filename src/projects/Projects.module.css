@@ -1,10 +1,27 @@
 .projectsContainer {
     min-height: 100vh;
-    background-color: #b0ddcc;
+    background-color: #1b1b1b;
+    padding: 100px 0;
 }
 
 .title {
-    background-color: yellow;
+    font-family: Montserrat;
+    margin-bottom: 30px;
+    color: #ffff;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    position: relative;
+}
+.title:after {
+    content: '';
+    width: 55px;
+    height: 1px;
+    background: #c32865;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .projectsBlock {
@@ -15,9 +32,14 @@
 }
 
 .projects {
+    margin-top: 30px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     border: 1px solid;
     flex-wrap: wrap;
+}
+.title .firstColor {
+    color: #c32865;
+
 }

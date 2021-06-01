@@ -14,7 +14,7 @@ export function Project(props) {
                 </a>
             </div>
             <div className={style.descriptionBlock}>
-                <h4 className={style.title}>{props.title}</h4>
+                <h3 className={style.title}>{props.title}</h3>
                 <div className={style.description}>{props.description}</div>
             </div>
         </div>

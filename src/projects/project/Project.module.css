@@ -29,8 +29,12 @@
     background-color: #e0dfdf;
 }
 .title {
-    background-color: #9d9b9b;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 19px;
     margin:10px
+
 }
 .description {
     background-color: #9d9b9b;
