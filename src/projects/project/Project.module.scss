@@ -31,19 +31,18 @@
             align-items: center;
             transition: .4s;
             border-radius: 3px;
-            .button:hover {
+            &:active {
+                border: 1px solid black;
+            }
+            h3 {
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            &:hover {
                 background-color: #c32865;
                 transition: .4s;
                 color: white;
-                &:hover {
-                    background-color: #c32865;
-                    transition: .4s;
-                    color: white;
-                }
-                h3 {
-                    text-transform: uppercase;
-                    font-weight: 700;
-                }
+
             }
 
         }
