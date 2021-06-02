@@ -1,0 +1,78 @@
+.project {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-top: 5px;
+    .viewBlock {
+        height: 250px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        &::before {
+            position: absolute;
+            content: '';
+            background-color: #c32865;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right: 0;
+            opacity: 0.2;
+        }
+        .button {
+            height: 50px;
+            width: 130px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .4s;
+            border-radius: 3px;
+            .button:hover {
+                background-color: #c32865;
+                transition: .4s;
+                color: white;
+                &:hover {
+                    background-color: #c32865;
+                    transition: .4s;
+                    color: white;
+                }
+                h3 {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+
+        }
+    }
+    .descriptionBlock {
+        width: 100%;
+        color: #888888;
+        .title {
+            font-family: Montserrat;
+            text-transform: uppercase;
+            color: #ffff;
+            font-size: 19px;
+            margin:10px
+        }
+        .description {
+            margin:10px
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-import style from '../../../projects/Projects.module.css'
+import style from './Title.module.css'
 
 export function Title(props) {
     return (

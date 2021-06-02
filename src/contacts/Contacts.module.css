@@ -4,9 +4,11 @@
     flex-wrap: nowrap;
     min-height: 50vh;
     justify-content: space-around;
+
+
 }
 .contactsContainer {
-    background-color: #cdcdfc;
+
     min-height: 50vh;
 }
 .contactsTitle {

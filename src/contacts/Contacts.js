@@ -4,7 +4,7 @@ import containStyle from '../common/styles/Contanier.module.css'
 
 export function Contacts() {
     return (
-        <div className={style.contactsContainer}>
+        <div className={`${style.contactsContainer} ${style.background}`} >
             <div className={`${containStyle.container} ${style.contactsBlock}`}>
                 <div className={style.contactsTitle}>
                     <h2>Contacts</h2>

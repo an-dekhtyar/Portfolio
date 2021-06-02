@@ -1,10 +1,10 @@
-import style from './Project.module.css'
+import style from './Project.module.scss'
 
 
 export function Project(props) {
     return (
         <div className={style.project}>
-            <div className={style.viewBlock}>
+            <div className={style.viewBlock} style={props.style}>
                 <a href={''}>
                     <div className={style.button}>
                         <h3>
