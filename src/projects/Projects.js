@@ -5,6 +5,7 @@ import common from '../App.css'
 import {Title} from '../common/components/title/Title';
 import todolistImage from '../assets/image/todolist.jpg'
 import socialNetworkImage from '../assets/image/sw.jpg'
+import pizzaImage from '../assets/image/pizza.jpg'
 
 export function Projects() {
 
@@ -15,6 +16,10 @@ export function Projects() {
     const socialNetwork = {
         backgroundImage: `url(${socialNetworkImage})`,
     };
+    const pizza = {
+        backgroundImage: `url(${pizzaImage})`,
+    };
+
 
 
     return (
@@ -24,6 +29,8 @@ export function Projects() {
                 <div className={style.projects}>
                     <Project style={todoList} title={"Todolist"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
                     <Project style={socialNetwork} title={"Social Network"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                    <Project style={pizza} title={"React Pizza"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+
                 </div>
             </div>
         </div>
