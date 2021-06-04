@@ -1,10 +1,17 @@
 import style from './Contacts.module.css'
 import containStyle from '../common/styles/Contanier.module.css'
+import {RemoteBlock} from "../remote/RemoteBlock";
+import mapPick from "./map.jpg";
 
 
 export function Contacts() {
+
+    const contactBackPick = {
+        backgroundImage:`url(${mapPick})`,
+    }
+
     return (
-        <div className={`${style.contactsContainer} ${style.background}`} >
+        <div className={`${style.contactsContainer} ${style.background}`} style={contactBackPick}>
             <div className={`${containStyle.container} ${style.contactsBlock}`}>
                 <div className={style.contactsTitle}>
                     <h2>Contacts</h2>
@@ -22,7 +29,7 @@ export function Contacts() {
                     </div>
                 </a>
                 </div>
-
+            {/*<RemoteBlock/>*/}
         </div>
     );
 }

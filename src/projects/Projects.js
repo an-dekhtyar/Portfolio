@@ -4,7 +4,7 @@ import {Project} from './project/Project';
 import common from '../App.css'
 import {Title} from '../common/components/title/Title';
 import todolistImage from '../assets/image/todolist.jpg'
-import socialNetworkImage from '../assets/image/socialnetwork2.jpg'
+import socialNetworkImage from '../assets/image/sw.jpg'
 
 export function Projects() {
 
