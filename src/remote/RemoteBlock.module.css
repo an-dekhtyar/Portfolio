@@ -1,34 +1,30 @@
 .remoteBlock {
-    min-height: 40vh;
+    min-height: 100vh;
     background-color: #f1f0cf;
 }
 
 .remoteContainer {
-    min-height: 40vh;
+    min-height: 100vh;
 }
 
-.title {
+
+
+
+/*.contactContain {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.text {
-    font-size: 1.5em;
-    font-weight: bold;
-    background-color: yellow;
-    margin: 20px;
-}
-
-.button {
-    height: 50px;
-    width: 150px;
-    background-color: #cac9c9;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: ce;
+    width: 800px;
+    height: 500px;
+    background-color: #ace9f1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}*/
+.cb{
+    background-color: coral;
+    box-sizing: border-box;
+    width: 400px;
+    max-height: 200px;
+    margin: 5px;
 }
 
 

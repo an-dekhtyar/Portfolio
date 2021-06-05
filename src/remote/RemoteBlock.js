@@ -5,19 +5,21 @@ export function RemoteBlock() {
     return (
         <div className={style.remoteBlock}>
             <div className={`${containStyle.container} ${style.remoteContainer}`}>
-                <div className={style.title}>
-                        <p className={style.text}>I am considering the possibility of remote work.</p>
-                        <p className={style.text}>Relocation is possible after 3 months of our cooperation.</p>
+                <div className={style.contactContain}>
+                    <div className={style.aaa}>
+                        <div className={style.cb}></div>
+                        <div className={style.cb}></div>
+                    </div>
+                    <div className={style.cb}></div>
+                    <div className={style.cb}></div>
                 </div>
-                    <a href={''}>
-                        <div className={style.button}>
-                            <h3>
-                                Contact with me
-                            </h3>
-                        </div>
-                    </a>
+
             </div>
         </div>
     );
 }
 
+
+{/*<p className={style.text}>I am considering the possibility of remote work.</p>
+                        <p className={style.text}>Relocation is possible after 3 months of our cooperation.</p>*/
+}
