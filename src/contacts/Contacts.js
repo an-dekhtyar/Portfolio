@@ -1,6 +1,5 @@
 import style from './Contacts.module.css'
 import containStyle from '../common/styles/Contanier.module.css'
-import {RemoteBlock} from "../remote/RemoteBlock";
 import mapPick from "../assets/image/mapBackGround.jpg";
 import {Title} from "../common/components/title/Title";
 
