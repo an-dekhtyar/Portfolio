@@ -7,7 +7,7 @@ import {faJs} from '@fortawesome/free-brands-svg-icons'
 import {faCss3Alt} from '@fortawesome/free-brands-svg-icons'
 import redux from '../assets/image/redux.svg'
 import typeScript from '../assets/image/ts.svg'
-import {faHtml5} from '@fortawesome/free-brands-svg-icons'
+import {faGitAlt} from '@fortawesome/free-brands-svg-icons'
 
 export function SkillsBlock() {
 
@@ -17,7 +17,7 @@ export function SkillsBlock() {
         css:faCss3Alt,
         redux:redux,
         typeScript:typeScript,
-        faHtml5:faHtml5
+        git:faGitAlt
     }
 
 
@@ -43,7 +43,7 @@ export function SkillsBlock() {
                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
                     <Skill title={"Redux"} svgIcon={icons.redux}
                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
-                    <Skill title={"HTML"} fortawesomeIcon={icons.faHtml5}
+                    <Skill title={"Git"} fortawesomeIcon={icons.git}
                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
                 </div>
             </div>
