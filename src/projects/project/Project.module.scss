@@ -23,14 +23,18 @@
             opacity: 0.2;
         }
         .button {
-            height: 50px;
-            width: 130px;
+            height: 45px;
+            width: 120px;
+            background-color: #c32865;
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: .4s;
-            border-radius: 3px;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 500;
+            color: white;
+            border: none;
             &:active {
                 border: 1px solid black;
             }
