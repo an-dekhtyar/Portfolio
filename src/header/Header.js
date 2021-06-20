@@ -1,11 +1,10 @@
 import style from './Header.module.css'
-import containStyle from '../common/styles/Contanier.module.css'
 import { Nav } from '../nav/Nav'
 import mainLogo from '../assets/image/main.png'
 import menuLogo from '../assets/image/menu.svg'
 import { SlideNav } from '../nav/SlideNav'
 import { useState } from 'react'
-import { Transition } from 'react-transition-group';
+
 
 export function Header() {
 
@@ -27,9 +26,9 @@ export function Header() {
                 ?
                 <div className={style.container} style={!colapsed ? width : null}>
                     <div>
-                        <img src={mainLogo}></img>
+                        <img src={mainLogo} alt={'photo'}/>
                     </div>
-                    <div style={image} onClick={colapsedHandler} className={style.menuLogo}></div>
+                    <div style={image} onClick={colapsedHandler} className={style.menuLogo}/>
                     <Nav />
                 </div>
                 :
@@ -45,7 +44,6 @@ export function Header() {
                     <SlideNav colapsedHandler={colapsedHandler} />
                 </div>}
             </Transition>*/}
-            <button></button>
         </div>
 
 
