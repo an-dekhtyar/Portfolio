@@ -24,3 +24,25 @@ a {
     color: white;
     padding: 10px;
 }
+
+/*.nav::before {
+    content: '';
+    display: none;
+    background: url('../assets/image/menu.svg');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    color: #c32865;
+}*/
+
+
+
+@media screen and (max-width:753px) {
+
+    .nav {
+        display: none;
+    }
+
+}
+

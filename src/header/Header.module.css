@@ -5,7 +5,6 @@
 }
 
 .container {
-    border: 1px solid;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -23,5 +22,55 @@
     margin-left: 50px;
     width: 60px;
     height: 34px;
+}
+
+.menuLogo {
+    display: none;
+    height: 28px;
+    width: 28px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+@media screen and (max-width:753px) {
+
+
+    .menuLogo {
+        display: inline-block;
+    }
+}
+
+.animation {
+    animation: show-header 0.5s forwards;
+}
+
+
+@keyframes show-header {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.animation.entering {
+
+}
+.animation.entered {
+
+}
+.animation.exeting {
+
+}
+.animation.exeted {
+
 }
 

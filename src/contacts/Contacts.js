@@ -6,12 +6,12 @@ import {Title} from "../common/components/title/Title";
 
 export function Contacts() {
 
-    const contactBackPick = {
+    /*const contactBackPick = {
         backgroundImage: `url(${mapPick})`,
-    }
+    }*/
 
     return (
-        <div className={style.contactsContainer} style={contactBackPick}>
+        <div className={style.contactsContainer} /*style={contactBackPick}*/>
             <div className={`${containStyle.container} ${style.contactsBlock}`}>
                 <Title firstColorText={'my '} text={'contacts'}/>
 
@@ -57,9 +57,7 @@ export const Form = () => {
                         </span>
                 </div>
                 <div className={style.vltFormGroup}>
-                    <span>
                         <textarea className={style.input2} cols={42} rows={6} placeholder="Message"/>
-                    </span>
                 </div>
                 <button className={style.button}>Contact Me</button>
             </form>

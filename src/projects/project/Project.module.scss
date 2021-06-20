@@ -4,6 +4,7 @@
     flex-direction: column;
     border: 1px solid;
     margin-top: 5px;
+    margin-bottom: 15px;
     .viewBlock {
         height: 250px;
         position: relative;
@@ -46,7 +47,7 @@
                 background-color: #c32865;
                 transition: .4s;
                 color: white;
-
+                cursor: pointer
             }
 
         }

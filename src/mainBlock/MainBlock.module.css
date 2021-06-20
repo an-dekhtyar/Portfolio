@@ -35,3 +35,9 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width:753px) {
+    .mainBlock {
+        padding-top: 40px;
+    }
+}

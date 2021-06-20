@@ -26,3 +26,12 @@
     
 
 }
+@media screen and (max-width: 710px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills + .skills {
+        margin-top: 0px;
+    }
+}
