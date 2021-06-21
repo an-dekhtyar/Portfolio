@@ -64,8 +64,8 @@
     line-height: 1.9428;
     text-transform: none;
 }
-.input2 .textarea {
-    max-width: 100%;
+textarea {
+    resize: none;
 }
 
 .elementorColumnWrap {
