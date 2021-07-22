@@ -6,7 +6,7 @@ export function Project(props) {
         <div className={style.project}>
             <div className={style.viewBlock} style={props.style}>
                 <a href={''}>
-                        <button className={style.button}>View Project</button>
+                    {/*  <button className={style.button}>View Project</button> */}
                 </a>
             </div>
             <div className={style.descriptionBlock}>

@@ -22,7 +22,7 @@ export function Header() {
     }
     return (
         <div className={style.header}>
-             {colapsed
+            {colapsed
                 ?
                 <div className={style.container} style={!colapsed ? width : null}>
                     <div>
@@ -33,9 +33,9 @@ export function Header() {
                 </div>
                 :
                 <div className={style.animation}>
-                <SlideNav colapsedHandler={colapsedHandler} />
+                    <SlideNav colapsedHandler={colapsedHandler} />
                 </div>
-                }
+            }
             {/*<Transition
                 in={colapsed}
                 timeout={500}

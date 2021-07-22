@@ -1,17 +1,44 @@
 .mainBlock {
     min-height: 100vh;
     background-color: #1b1b1b;
+
 }
 
 .greeting {
-    width: 300px;
+    width: 310px;
+    position: relative;
 }
-
 .photo {
+    z-index: 1;
+    position: relative;
+}
+.image {
     width: 400px;
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+.image::after{
+    content: '';
+    position: absolute;
+    top:-2px;
+    left:-2px;
+    bottom:-2px;
+    right:-2px;
+    filter: blur(20px);
+    z-index: -1;
+    background: linear-gradient(235deg, #ff005e,#1b1b1b,#1b1b1b);
+}
+.image::before{
+    content:'';
+    border: 5px outset #c32865;
+    position: absolute;
+    height: 105%;
+    width: 102%;
+    left: 10px;
+    top:-20px;
+    z-index: -1;
 }
 .spanText {
     font-family: Montserrat;
@@ -24,9 +51,10 @@
     font-family: Montserrat;
     font-size: 45px;
     color: white;
+    margin-bottom: 20px;
 }
 .pText {
-    margin-top: 20px;
+
     font-family: Montserrat;
     font-size: 23px;
     color: white;
@@ -35,9 +63,17 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-
 @media screen and (max-width:753px) {
     .mainBlock {
         padding-top: 40px;
     }
+}
+.particles{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.3;
+
 }

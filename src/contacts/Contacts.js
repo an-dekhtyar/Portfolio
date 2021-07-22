@@ -3,7 +3,6 @@ import containStyle from '../common/styles/Contanier.module.css'
 import mapPick from "../assets/image/mapBackGround.jpg";
 import {Title} from "../common/components/title/Title";
 
-
 export function Contacts() {
 
     /*const contactBackPick = {
@@ -13,6 +12,7 @@ export function Contacts() {
     return (
         <div className={style.contactsContainer} /*style={contactBackPick}*/>
             <div className={`${containStyle.container} ${style.contactsBlock}`}>
+
                 <Title firstColorText={'my '} text={'contacts'}/>
 
                 <div className={style.contactBlockContent}>
@@ -57,7 +57,7 @@ export const Form = () => {
                         </span>
                 </div>
                 <div className={style.vltFormGroup}>
-                        <textarea className={style.input2} cols={42} rows={6} placeholder="Message"/>
+                    <textarea className={style.input2} cols={42} rows={6} placeholder="Message"/>
                 </div>
                 <button className={style.button}>Contact Me</button>
             </form>

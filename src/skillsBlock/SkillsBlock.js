@@ -8,6 +8,8 @@ import {faCss3Alt} from '@fortawesome/free-brands-svg-icons'
 import redux from '../assets/image/redux.svg'
 import typeScript from '../assets/image/ts.svg'
 import {faGitAlt} from '@fortawesome/free-brands-svg-icons'
+import Fabe from 'react-reveal/Fade'
+import HeadShake from 'react-reveal/HeadShake';
 
 export function SkillsBlock() {
 
@@ -27,25 +29,29 @@ export function SkillsBlock() {
     return (
         <div className={style.skillsBlock}>
             <div className={`${containStyle.container} ${style.skillsContainer}`}>
-
-                <Title text={"Skills"} firstColorText={"My "}/>
-
-                <div className={style.skills}>
-                    <Skill title={"JavaScript"} fortawesomeIcon={icons.javaScript}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
-                    <Skill title={"CSS"} fortawesomeIcon={icons.css}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
-                    <Skill title={"React"} fortawesomeIcon={icons.react}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
-                </div>
-                <div className={style.skills}>
-                    <Skill title={"TypeScript"} svgIcon={icons.typeScript}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
-                    <Skill title={"Redux"} svgIcon={icons.redux}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
-                    <Skill title={"Git"} fortawesomeIcon={icons.git}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
-                </div>
+                <HeadShake >
+                    <Title text={"Skills"} firstColorText={"My "}/>
+                </HeadShake >
+                <Fabe left>
+                    <div className={style.skills}>
+                        <Skill title={"JavaScript"} fortawesomeIcon={icons.javaScript}
+                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Skill title={"CSS"} fortawesomeIcon={icons.css}
+                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Skill title={"React"} fortawesomeIcon={icons.react}
+                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                    </div>
+                </Fabe>
+                <Fabe right>
+                    <div className={style.skills}>
+                        <Skill title={"TypeScript"} svgIcon={icons.typeScript}
+                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Skill title={"Redux"} svgIcon={icons.redux}
+                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Skill title={"Git"} fortawesomeIcon={icons.git}
+                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                    </div>
+                </Fabe>
             </div>
         </div>
     );

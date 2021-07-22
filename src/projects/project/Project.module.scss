@@ -2,7 +2,6 @@
     width: 280px;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
     margin-top: 5px;
     margin-bottom: 15px;
     .viewBlock {
@@ -13,9 +12,9 @@
         align-items: center;
         background-size: cover;
         background-position: center;
-        &::before {
+        &:hover {
             position: absolute;
-            content: '';
+            /*  content: ''; */
             background-color: #c32865;
             top: 0;
             bottom: 0;
