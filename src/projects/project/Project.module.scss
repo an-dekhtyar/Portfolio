@@ -12,17 +12,19 @@
         align-items: center;
         background-size: cover;
         background-position: center;
-        &:hover {
+        &:hover::before {
             position: absolute;
-            /*  content: ''; */
+            content: '';
             background-color: #c32865;
             top: 0;
             bottom: 0;
             left:0;
             right: 0;
             opacity: 0.2;
+
         }
         .button {
+
             height: 45px;
             width: 120px;
             background-color: #c32865;
@@ -47,6 +49,7 @@
                 transition: .4s;
                 color: white;
                 cursor: pointer
+
             }
 
         }

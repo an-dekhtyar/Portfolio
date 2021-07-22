@@ -1,15 +1,17 @@
 
 .skill {
+
     width: 280px;
     background-color: #2f2f2f;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top:10px;
+    margin-top:20px;
     padding: 20px;
     box-sizing: border-box;
-    color:white
+    color:white;
+    box-shadow: 0 0 5px 5px rgb(15 15 15 / 20%);
 }
 .skillDescription{
     color: #888888;

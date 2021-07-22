@@ -1,5 +1,5 @@
 .projectsContainer {
-    min-height: 100vh;
+    height: auto;
     background-color: #1b1b1b;
     padding: 100px 0;
     .projectsBlock {
@@ -7,6 +7,7 @@
         flex-direction: column;
         justify-content: flex-start;
         flex-wrap: nowrap;
+        min-height: max-content;
     }
     .projects {
         margin-top: 30px;
