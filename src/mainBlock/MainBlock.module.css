@@ -1,7 +1,7 @@
 .mainBlock {
     min-height: 100vh;
     background-color: #1b1b1b;
-
+    padding-top: 190px;
 }
 
 .greeting {
@@ -11,6 +11,7 @@
 .photo {
     z-index: 1;
     position: relative;
+    margin-top: 50px;
 }
 .image {
     width: 400px;
@@ -26,7 +27,7 @@
     left:-2px;
     bottom:-2px;
     right:-2px;
-    filter: blur(20px);
+    filter: blur(18px);
     z-index: -1;
     background: linear-gradient(235deg, #ff005e,#1b1b1b,#1b1b1b);
 }
@@ -54,7 +55,6 @@
     margin-bottom: 20px;
 }
 .pText {
-
     font-family: Montserrat;
     font-size: 23px;
     color: white;
@@ -63,15 +63,18 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-@media screen and (max-width:753px) {
+@media screen and (min-width:713px) {
     .mainBlock {
         padding-top: 40px;
+    }
+    .photo {
+        margin-top: 70px;
     }
 }
 @media screen and (max-width:1300px) {
     .image {
-        width: 340px;
-        height: 510px;
+        width: 260px;
+        height: 390px;
     }
 }
 .particles{

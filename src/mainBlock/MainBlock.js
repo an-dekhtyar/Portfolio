@@ -4,12 +4,12 @@ import mainPhoto from '../assets/image/main-photo.jpg'
 import ParticleField from 'react-particles-js'
 import Fabe from 'react-reveal/Fade'
 import ReactTypingEffect from 'react-typing-effect';
-
+import Tilt from 'react-tilt'
 
 const config = {
     particles: {
         number: {
-            value: 200,
+            value: 400,
             density: {
                 enable: true,
                 value_area: 1000
@@ -49,9 +49,11 @@ export function MainBlock() {
     }
 
     return (
-        <div className={style.mainBlock}>
-            <ParticleField params={config} className={style.particles}/>
+        <div id={'Home'} className={style.mainBlock}>
+            {/* <ParticleField params={config} className={style.particles}/> */}
             <div className={containStyle.container}>
+
+
                 <Fabe left>
                     <div className={style.greeting}>
                         <span className={style.spanText}>Hi There,</span>
@@ -59,10 +61,15 @@ export function MainBlock() {
                         <ReactTypingEffect text={"Frontend Developer"} className={style.pText}/>
                     </div>
                 </Fabe>
+
+
+
                 <Fabe right>
-                    <div className={style.photo}>
-                        <div className={style.image} style={mainBackGrPhoto}/>
-                    </div>
+                    <Tilt options={{ max : 10}}>
+                        <div className={style.photo}>
+                            <div className={style.image} style={mainBackGrPhoto} />
+                        </div>
+                    </Tilt>
                 </Fabe>
             </div>
 

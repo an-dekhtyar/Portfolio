@@ -10,7 +10,7 @@ export function Contacts() {
     }*/
 
     return (
-        <div className={style.contactsContainer} /*style={contactBackPick}*/>
+        <div id={'Contacts'} className={style.contactsContainer} /*style={contactBackPick}*/>
             <div className={`${containStyle.container} ${style.contactsBlock}`}>
 
                 <Title firstColorText={'my '} text={'contacts'}/>

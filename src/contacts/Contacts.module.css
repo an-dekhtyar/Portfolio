@@ -46,6 +46,13 @@
     border: none;
     cursor: pointer;
 }
+.button:hover {
+    background-color: #a02c5a;
+}
+.button:active {
+    background-color: #c32865;
+    border: 1px solid white;
+}
 
 .input2 {
     display: block;

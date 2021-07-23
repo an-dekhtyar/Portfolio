@@ -27,7 +27,7 @@ export function SkillsBlock() {
 
 
     return (
-        <div className={style.skillsBlock}>
+        <div id={'Skills'} className={style.skillsBlock}>
             <div className={`${containStyle.container} ${style.skillsContainer}`}>
                 <HeadShake >
                     <Title text={"Skills"} firstColorText={"My "}/>

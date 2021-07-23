@@ -37,10 +37,10 @@ export function Projects() {
 
 
     return (
-        <div className={style.projectsContainer}>
+        <div id={'Projects'} className={style.projectsContainer}>
             <div className={`${containStyle.container} ${style.projectsBlock}`}>
                 <HeadShake >
-                    <Title text={"Projects"} firstColorText={"My "}/>
+                    <Title firstColorText={"My "} text={"Projects"} />
                 </HeadShake>
 
                 <div className={style.projects}>

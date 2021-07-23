@@ -5,11 +5,11 @@ export function Project(props) {
     return (
         <div className={style.project}>
             <a href={''}>
-            <div className={style.viewBlock} style={props.style}>
+                <div className={style.viewBlock} style={props.style}>
 
-                      {/*<button className={style.button}>View</button>*/}
+                    {/*<button className={style.button}>View</button>*/}
 
-            </div>
+                </div>
             </a>
             <div className={style.descriptionBlock}>
                 <h3 className={style.title}>{props.title}</h3>
