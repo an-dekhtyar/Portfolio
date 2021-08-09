@@ -1,12 +1,12 @@
 import style from './Project.module.scss'
-
+import viewMoreIcon from '../../assets/image/more.svg'
 
 export function Project(props) {
     return (
         <div className={style.project}>
             <a href={''}>
                 <div className={style.viewBlock} style={props.style}>
-
+                    <img className={style.icon} src={viewMoreIcon}/>
                     {/*<button className={style.button}>View</button>*/}
 
                 </div>

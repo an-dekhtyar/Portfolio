@@ -13,11 +13,11 @@ export function Nav() {
         <div className={style.nav}>
             {items.map((items, index) => <Link
                 key={index}
-                activeClass=""
+                activeClass={style.active}
                 to={items}
                 spy={true}
                 smooth={true}
-                offset={items === "Contacts" ? -100 : 1}
+                offset={ 1}
                 duration={500}
                 className={style.navButton}
             >{items}</Link>)}

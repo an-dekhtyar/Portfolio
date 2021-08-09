@@ -1,9 +1,7 @@
 import style from './SlideNav.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { GiHamburgerMenu } from '@fortawesome/free-brands-svg-icons'
 import menuLogo from '../assets/image/menuSlide.svg'
 import mainLogo from '../assets/image/mainSlide.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 export function SlideNav(props) {
 
@@ -14,12 +12,10 @@ export function SlideNav(props) {
 
     return (
         <div className={style.slideNavContain}>
-            <div className={style.head}>
                 <div className={style.headerSlide}>
-                    <div><img src={mainLogo}></img></div>
-                    <div className={style.menuLogo} onClick={props.colapsedHandler} style={image} ></div>
+                    <div><img src={mainLogo}/></div>
+                    <div className={style.menuLogo} onClick={()=>{props.collapsedHandler()}} style={image} />
                 </div>
-            </div>
             <div className={style.slideNavItems}>
                 {items.map((items, index) => <Link
                     key={index}

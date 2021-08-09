@@ -24,7 +24,7 @@ a {
     color: white;
     padding: 10px;
 }
-.navButton:active {
+.active {
     background-color: #c32865;
     transition: .4s;
     color: white;

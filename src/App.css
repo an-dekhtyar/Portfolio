@@ -1,0 +1,32 @@
+
+
+
+@keyframes show-header {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.anim.entering {
+    animation: show-header .5s forwards;
+
+}
+.anim.entered {
+    opacity: 1;
+
+}
+.anim.exiting {
+    animation: show-header .5s reverse;
+
+}
+.anim.exited {
+
+}
