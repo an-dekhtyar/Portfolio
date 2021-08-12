@@ -1,8 +1,6 @@
 import style from './Nav.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { GiHamburgerMenu } from '@fortawesome/free-brands-svg-icons'
-import { Link, animateScroll as scroll } from "react-scroll";
-import { useState } from 'react'
+
+import { Link } from "react-scroll";
 
 export function Nav() {
 
@@ -17,7 +15,7 @@ export function Nav() {
                 to={items}
                 spy={true}
                 smooth={true}
-                offset={ 1}
+                offset={-10}
                 duration={500}
                 className={style.navButton}
             >{items}</Link>)}

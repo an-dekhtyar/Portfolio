@@ -50,7 +50,7 @@ export function MainBlock() {
 
     return (
         <div id={'Home'} className={style.mainBlock}>
-            {/* <ParticleField params={config} className={style.particles}/> */}
+             <ParticleField params={config} className={style.particles}/>
             <div className={containStyle.container}>
 
 

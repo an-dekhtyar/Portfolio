@@ -12,6 +12,7 @@
     background-position: center;
     min-height: 90vh;
     background-image: url("../assets/image/mapBackGround.jpg");
+    padding: 100px 0;
 }
 
 .formContainer {
@@ -39,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Poppins;
+    font-family: 'Poppins', serif;
     font-size: 15px;
     font-weight: 500;
     color: white;
@@ -65,7 +66,7 @@
     border-radius: 0;
     outline: 0;
     background-color: #2f2f2f;
-    font-family: Poppins;
+    font-family: 'Poppins', serif;
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.9428;
@@ -102,12 +103,12 @@ textarea {
 }
 .contactBlockText {
     margin: 10px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', serif;
     font-size: 25px;
     color: white;
 }
 .contactBlockText .cityName {
-    font-family: Montserrat;
+    font-family: 'Montserrat', serif;
     font-size: 45px;
     font-weight: 600;
 }
@@ -155,6 +156,6 @@ textarea {
         flex-direction: column;
     }
     .vltFormGroupInline + .vltFormGroupInline {
-        margin-left: 0px;
+        margin-left: 0;
     }
 }

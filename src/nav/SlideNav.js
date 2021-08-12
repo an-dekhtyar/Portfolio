@@ -13,7 +13,7 @@ export function SlideNav(props) {
     return (
         <div className={style.slideNavContain}>
                 <div className={style.headerSlide}>
-                    <div><img src={mainLogo}/></div>
+                    <div><img src={mainLogo} alt={'AD'}/></div>
                     <div className={style.menuLogo} onClick={()=>{props.collapsedHandler()}} style={image} />
                 </div>
             <div className={style.slideNavItems}>
@@ -23,7 +23,7 @@ export function SlideNav(props) {
                     to={items}
                     spy={true}
                     smooth={true}
-                    offset={items === "Contacts" ? -170 : -70}
+                    offset={1}
                     duration={500}
                     className={style.navButton}
                 >{items}</Link>)}
