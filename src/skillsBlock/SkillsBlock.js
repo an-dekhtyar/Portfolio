@@ -35,21 +35,21 @@ export function SkillsBlock() {
                 <Fabe left>
                     <div className={style.skills}>
                         <Skill title={"JavaScript"} fortawesomeIcon={icons.javaScript}
-                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                               description={"JS is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. JS can function as both a procedural and an object oriented language"}/>
                         <Skill title={"CSS"} fortawesomeIcon={icons.css}
-                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                               description={"Cascading Style Sheets, is for adding styles, such as colors, font type, and spacing. Combined, they are the building blocks of any website"}/>
                         <Skill title={"React"} fortawesomeIcon={icons.react}
-                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                               description={"React is a JavaScript library for building user interfaces. React can be used as a base in the development of single-page or mobile applications"}/>
                     </div>
                 </Fabe>
                 <Fabe right>
                     <div className={style.skills}>
                         <Skill title={"TypeScript"} svgIcon={icons.typeScript}
-                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                               description={"TS is a strict syntactical superset of JavaScript and adds optional static typing to the language. TS is designed for the development of large applications and transcompiles to JavaScript"}/>
                         <Skill title={"Redux"} svgIcon={icons.redux}
-                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                               description={"Redux is JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces"}/>
                         <Skill title={"Git"} fortawesomeIcon={icons.git}
-                               description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                               description={"Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development"}/>
                     </div>
                 </Fabe>
             </div>

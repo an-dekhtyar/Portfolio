@@ -1,16 +1,13 @@
 import style from './Footer.module.css'
 import containStyle from '../common/styles/Contanier.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faTelegram} from '@fortawesome/free-brands-svg-icons'
-import {faGitAlt} from '@fortawesome/free-brands-svg-icons'
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
-import {faWhatsappSquare} from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faTelegram, faLinkedin, faWhatsappSquare} from '@fortawesome/free-brands-svg-icons'
 
 export function Footer() {
 
     let icons = {
         telegram: faTelegram,
-        gitHub: faGitAlt,
+        gitHub: faGithub,
         linkedIn: faLinkedin,
         whatsUp: faWhatsappSquare
     }
@@ -21,22 +18,22 @@ export function Footer() {
             <div className={`${containStyle.container} ${style.footerContainer}`}>
                 <h2 className={style.name}><span className={style.firstColor} >Anton</span> Dekhyar</h2>
                 <div className={style.socialNetworkBlock}>
-                    <a href={''}>
+                    <a href={'https://t.me/antndkhtr'}>
                         <div className={style.socialNetwork}>
                             <FontAwesomeIcon size={"3x"} icon={icons.telegram}/>
                         </div>
                     </a>
-                    <a href={''}>
+                    <a href={'https://github.com/an-dekhtyar'}>
                         <div className={style.socialNetwork}>
                             <FontAwesomeIcon size={"3x"}  icon={icons.gitHub}/>
                         </div>
                     </a>
-                    <a href={''}>
+                    <a href={'https://www.linkedin.com/in/anton-dekhtyar-08379a1a0/'}>
                         <div className={style.socialNetwork}>
                             <FontAwesomeIcon size={"3x"}  icon={icons.linkedIn}/>
                         </div>
                     </a>
-                    <a href={''}>
+                    <a href={'https://wa.me/375293273433'}>
                         <div className={style.socialNetwork}>
                             <FontAwesomeIcon size={"3x"}  icon={icons.whatsUp}/>
                         </div>

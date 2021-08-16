@@ -1,12 +1,7 @@
 import style from './Projects.module.scss'
 import containStyle from '../common/styles/Contanier.module.css'
 import {Project} from './project/Project';
-import common from '../App.css'
 import {Title} from '../common/components/title/Title';
-/* import todolistImage from '../assets/image/todolist.jpg'
-import socialNetworkImage from '../assets/image/sw.jpg'
-import pizzaImage from '../assets/image/pizza.jpg'
-import cardsImage from '../assets/image/cards.jpg' */
 import todolistImage from '../assets/image/todo.png'
 import socialNetworkImage from '../assets/image/socialnetwork2.png'
 import pizzaImage from '../assets/image/pizza2.png'
@@ -45,16 +40,16 @@ export function Projects() {
 
                 <div className={style.projects}>
                     <Fade bottom>
-                        <Project style={todoList} title={"Todolist"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Project link={'https://github.com/an-dekhtyar/todolist'} style={todoList} title={"Todolist"} description={"A to do list app helps you organize tasks and stay on top of your deadlines. You can use it to manage everything from grocery lists to work-related tasks and more."}/>
                     </Fade>
                     <Fade bottom>
-                        <Project style={socialNetwork} title={"Social Network"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Project link={'https://an-dekhtyar.github.io/Social-Network/'} style={socialNetwork} title={"Social Network"} description={"In this age of digitisation, people have found ways to be socially active on the internet. Now, even relationships begin, grow and end on social media. People no longer need a personal handshake or face-to-face meeting."}/>
                     </Fade>
                     <Fade bottom>
-                        <Project style={pizza} title={"React Pizza"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Project link={'https://github.com/an-dekhtyar/pizza'} style={pizza} title={"React Pizza"} description={"React Pizza is a pizza delivery service application. The ability to increase the number of orders and increase the average check, optimizing delivery processes and strengthening customer loyalty."}/>
                     </Fade>
                     <Fade bottom>
-                        <Project style={cards}  title={"Cards"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"}/>
+                        <Project link={'https://an-dekhtyar.github.io/cards-app/#/login'} style={cards}  title={"Cards"} description={"Whether you are an experienced programmer or not, this Cards app is intended for everyone who wishes to learn the JavaScript programming language and ove your Frontend Developer skills"}/>
                     </Fade>
                 </div>
 

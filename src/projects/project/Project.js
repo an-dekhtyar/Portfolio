@@ -4,11 +4,9 @@ import viewMoreIcon from '../../assets/image/more.svg'
 export function Project(props) {
     return (
         <div className={style.project}>
-            <a href={''}>
+            <a href={props.link}>
                 <div className={style.viewBlock} style={props.style}>
-                    <img className={style.icon} src={viewMoreIcon}/>
-                    {/*<button className={style.button}>View</button>*/}
-
+                    <img  alt={'View more'} className={style.icon} src={viewMoreIcon}/>
                 </div>
             </a>
             <div className={style.descriptionBlock}>
