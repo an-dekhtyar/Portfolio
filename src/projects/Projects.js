@@ -40,7 +40,7 @@ export function Projects() {
 
                 <div className={style.projects}>
                     <Fade bottom>
-                        <Project link={'https://github.com/an-dekhtyar/todolist'} style={todoList} title={"Todolist"} description={"A to do list app helps you organize tasks and stay on top of your deadlines. You can use it to manage everything from grocery lists to work-related tasks and more."}/>
+                        <Project link={'https://an-dekhtyar.github.io/todolist'} style={todoList} title={"Todolist"} description={"A to do list app helps you organize tasks and stay on top of your deadlines. You can use it to manage everything from grocery lists to work-related tasks and more."}/>
                     </Fade>
                     <Fade bottom>
                         <Project link={'https://an-dekhtyar.github.io/Social-Network/'} style={socialNetwork} title={"Social Network"} description={"In this age of digitisation, people have found ways to be socially active on the internet. Now, even relationships begin, grow and end on social media. People no longer need a personal handshake or face-to-face meeting."}/>
